@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/kasaa/static/css/main.ba5f20d7.css",
+    "main.js": "/kasaa/static/js/main.d87f68ad.js",
+    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash2.png": "/kasaa/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash2.abab3f12f4cb82f1dfa1.png",
+    "static/media/homeBg.png": "/kasaa/static/media/homeBg.d00ae7dd3ef927bb988d.png",
+    "static/media/logo.svg": "/kasaa/static/media/logo.a3c0648d784a63505d774a39033fe2aa.svg",
+    "index.html": "/kasaa/index.html",
+    "static/media/dropdown.svg": "/kasaa/static/media/dropdown.6be86a8ff7772b42b056a30c2d82b448.svg",
+    "static/media/greyStart.svg": "/kasaa/static/media/greyStart.06dccca447400012db124c595a41e219.svg",
+    "static/media/pinkStart.svg": "/kasaa/static/media/pinkStart.325cf1d54d109e062e0d0468f6412f00.svg",
+    "main.ba5f20d7.css.map": "/kasaa/static/css/main.ba5f20d7.css.map",
+    "main.d87f68ad.js.map": "/kasaa/static/js/main.d87f68ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba5f20d7.css",
+    "static/js/main.d87f68ad.js"
+  ]
+}
