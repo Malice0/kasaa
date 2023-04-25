@@ -1,0 +1,73 @@
+.arrowUp {
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out;
+}
+
+.arrowDown {
+    transform: rotate(180deg);
+    transition: 0.3s ease-in-out;
+}
+
+.collapseTitle {
+    cursor: pointer;
+}
+
+.collapseContent {
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0.2s ease-in-out,
+        opacity 0.2s ease-in-out,
+        height 0.2s ease-in-out;
+}
+
+.collapseContentHidden {
+    visibility: hidden;
+    height: 0px;
+    opacity: 0;
+    transition: opacity 0.05s ease-in-out, visibility 0.05s ease-in-out,
+        height 0.2s ease-in-out;
+}
+
+.collapse {
+    width: 48%;
+}
+
+.collapse h2 {
+    color: #fff;
+    background-color: #FF6060;
+    margin-bottom: 0px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.collapseContent {
+    background-color: #F6F6F6;
+    color: #FF6060;
+    margin-top: 0px;
+    padding: 20px 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.collapseContentList {
+    padding: 0px 10px;
+    
+}
+
+@media screen and (max-width: 770px) {
+
+    .collapse h2,
+    .collapse p {
+        font-size: large;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .collapse {
+        width: 100%;
+    }
+}

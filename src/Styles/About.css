@@ -1,0 +1,45 @@
+.aboutContent {
+    margin: 20px 150px;
+}
+
+.aboutContent h2 {
+    width: 100%;
+    background-color: #FF6060;
+    color: #fff;
+    padding: 10px 20px 10px 10px;
+    border-radius: 5px;
+    margin: 40px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutContent p {
+    background-color: #F6F6F6;
+    margin-top: 0px;
+    padding: 30px 15px 20px 15px;
+    border-radius: 5px;
+    color: #FF6060;
+    font-size: 25px;
+}
+
+
+.aboutContent .collapseContentHidden  {
+    padding: 0px;
+    transition: 0.1s ease-in-out;
+}
+
+@media screen and (max-width: 650px) {
+    .aboutContent {
+        margin: 20px;
+        visibility: 0;
+    }
+
+    .aboutContent h2 {
+        font-size: 22px;
+    }
+
+    .aboutContent p {
+        font-size: 20px;
+        padding: 30px 15px 30px 15px;
+    }
+}

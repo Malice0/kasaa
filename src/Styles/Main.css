@@ -1,0 +1,26 @@
+.homeGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    background: #F7F7F7;
+    border-radius: 25px;
+    margin: 40px 70px 70px 70px;
+    padding: 20px;
+    gap: 5%;
+}
+
+@media screen and (max-width: 900px) {
+    .homeGallery {
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .homeGallery {
+        flex-direction: column;
+        padding: 0;
+        background: transparent;
+        margin: 40px 20px 
+    }
+}

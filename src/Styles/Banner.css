@@ -1,0 +1,40 @@
+.banner {
+    height: 180px;
+    margin: 20px 70px;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../assets/homeBg.png);
+    background-position: 50%;
+    background-size: cover;
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BannerAbout {
+    height: 180px;
+    margin: 20px 70px;
+    background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url(../assets/kalen-emsley-Bkci_8qcdvQ-unsplash2.png);
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 25px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .banner {
+        justify-content: left;
+        height: 130px;
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+    .banner h1 {
+        width: 230px;
+        margin-left: 25px;
+    }
+
+    .BannerAbout {
+        margin: 20px;
+    }
+}

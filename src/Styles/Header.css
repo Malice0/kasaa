@@ -1,0 +1,46 @@
+.header {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 75px;
+}
+
+.navLink {
+    color: #FF6060;
+}
+
+.navLink:first-child {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 35px;
+}
+
+@media all and (max-width: 620px) {
+    .header {
+        margin: 40px 20px;
+    }
+
+    .header > a {
+        width: 40%;
+    }
+    
+    .header img {
+        width: 70%;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+    
+    nav ul a {
+        margin-left: 10px;
+    }
+}
