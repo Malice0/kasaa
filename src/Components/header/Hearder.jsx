@@ -11,12 +11,12 @@ export default function Header() {
     }, [])
     return (
         <div className="header">
-            <Link to="/kasa">
+            <Link to="/kasaa">
                 <img src={logo} alt="Logo Kasa" />
             </Link>
             <nav>
                 <ul>
-                    <Link to="/kasa" className="navLink">
+                    <Link to="/kasaa" className="navLink">
                         Accueil
                     </Link>
                     <Link to="/about" className="navLink">
